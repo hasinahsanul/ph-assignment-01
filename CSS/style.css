@@ -36,6 +36,14 @@ body {
   font-weight: 700;
 }
 
+.navbar-btn:hover {
+  cursor: pointer;
+  background-color: #006a50;
+  color: #ffffff;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
 /* Banner Section Design */
 .banner-container {
   width: 1280px;
@@ -55,6 +63,7 @@ body {
   font-size: 24px;
   font-weight: 500;
   font-family: "Fira Sans", serif;
+  opacity: 50%;
 }
 
 .banner-title {
@@ -74,6 +83,14 @@ body {
   font-size: 18px;
   font-weight: 700;
   font-family: "Fira Sans", serif;
+}
+
+.explore-btn:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: #006a50;
+  border: 1px solid #006a50;
+  transition: background-color 0.3s ease;
 }
 
 /* Pillars Section Design */
@@ -120,6 +137,7 @@ body {
   font-family: "Fira Sans", serif;
   color: #0e0e0e;
 }
+
 /* The vision of future section design */
 
 .the-vision-of-future-container {
@@ -203,6 +221,14 @@ body {
   border-radius: 10px;
 }
 
+.digital-transformation-btn:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: #5490f5;
+  border: 1px solid #5490f5;
+  transition: background-color 0.3s ease;
+}
+
 .green-energy-btn {
   width: 122px;
   height: 41px;
@@ -215,6 +241,14 @@ body {
   border-radius: 10px;
 }
 
+.green-energy-btn:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: #09a15c;
+  border: 1px solid #09a15c;
+  transition: background-color 0.3s ease;
+}
+
 .modern-infrastructure-btn {
   width: 122px;
   height: 41px;
@@ -225,4 +259,105 @@ body {
   font-family: "Fira Sans", serif;
   border: none;
   border-radius: 10px;
+}
+
+.modern-infrastructure-btn:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: #ffc239;
+  border: 1px solid #ffc239;
+  transition: background-color 0.3s ease;
+}
+
+/* Recent news section design */
+.recent-news-container {
+  width: 1280px;
+  height: auto;
+  margin: auto;
+  margin-bottom: 80px;
+}
+
+.recent-news-title {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Fira Sans", serif;
+  color: #0e0e0e;
+  margin-bottom: 24px;
+}
+
+.recent-news-description {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Fira Sans", serif;
+  color: #0e0e0e;
+  margin-bottom: 24px;
+  opacity: 70%;
+}
+
+.recent-news-card {
+  background-color: #ffffff;
+  width: 1280px;
+  height: 402px;
+  border-radius: 10px;
+  padding: 48px;
+  display: flex;
+  align-items: start;
+  gap: 32px;
+  margin-bottom: 24px;
+}
+
+.satelite-img {
+  width: 408px;
+  height: 306px;
+  border-radius: 24px;
+}
+
+.recent-news-card-title {
+  font-size: 32px;
+  font-weight: bold;
+  font-family: "Fira Sans", serif;
+  color: #0e0e0e;
+  opacity: 80%;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.date-time {
+  display: flex;
+  gap: 10px;
+  color: #0e0e0e;
+  opacity: 70%;
+  font-family: "Fira Sans", serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.recent-news-card-description {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Fira Sans", serif;
+  color: #0e0e0e;
+  opacity: 70%;
+  margin: 0;
+  padding-bottom: 32px;
+}
+
+.recent-news-card-btn {
+  background-color: #006a50;
+  color: #ffffff;
+  width: 139px;
+  height: 48px;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Fira Sans", serif;
+}
+
+.recent-news-card-btn:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: #006a50;
+  border: 1px solid #006a50;
+  transition: background-color 0.3s ease;
 }
