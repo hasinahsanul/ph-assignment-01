@@ -64,6 +64,7 @@ body {
   font-weight: 500;
   font-family: "Fira Sans", serif;
   opacity: 50%;
+  margin: 0;
 }
 
 .banner-title {
@@ -269,6 +270,40 @@ body {
   transition: background-color 0.3s ease;
 }
 
+.quote-section-container {
+  position: relative;
+  width: 1280px;
+  height: 256px;
+  margin: auto;
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.quote-image {
+  position: absolute;
+}
+
+.dr-muhammad-yunus {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Fira Sans", serif;
+  color: #0e0e0e;
+  opacity: 80%;
+  margin: 0;
+}
+
+.quote-section-speech {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Fira Sans", serif;
+  color: #0e0e0e;
+  opacity: 80%;
+}
+
 /* Recent news section design */
 .recent-news-container {
   width: 1280px;
@@ -359,8 +394,9 @@ body {
   background-color: transparent;
   color: #006a50;
   border: 1px solid #006a50;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
 }
+
 /* Donate Today section design */
 
 .donate-today-container {
@@ -454,8 +490,9 @@ body {
   background-color: transparent;
   color: #006a50;
   border: 1px solid #006a50;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
 }
+
 /* Newsletter section design */
 .newsletter-container {
   width: 1280px;
